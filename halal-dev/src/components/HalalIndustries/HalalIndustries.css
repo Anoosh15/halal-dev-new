@@ -1,0 +1,219 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f9f6;
+    margin: 0;
+    padding: 0;
+}
+
+.halal-industries {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Header Section */
+.header {
+    margin-bottom: 40px;
+}
+
+.header h1 {
+    font-size: 36px;
+    color: #3b8131;
+}
+
+.header h2 {
+    font-size: 18px;
+    color: #333;
+    margin-top: 0;
+}
+
+.highlight {
+    color: #3b8131;
+}
+
+/* Section */
+.parent {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin: 50px
+    ;
+}
+.pharmaceuticals-card {
+    position: relative;
+    width: 100%;
+    max-width: 900px; /* Adjust as per requirement */
+    height: 250px; /* Adjust height according to the image */
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.pharmaceuticals-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('src/assets/image8.png'); /* Add your image path here */
+    background-size: cover;
+    background-position: center;
+    filter: brightness(0.7); /* Darken the image for better contrast with text */
+    z-index: 1;
+    padding-left: 50;
+}
+
+.pharmaceuticals-content {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    z-index: 2;
+    color: white;
+    font-size: 18px;
+    line-height: 1.5;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Adds a shadow to improve readability */
+}
+
+.pharmaceuticals-content h3 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.pharmaceuticals-content p {
+    margin-top: 5px;
+    font-size: 16px;
+    max-width: 600px; /* Control text width */
+    text-align: left;
+}
+
+.food-card {
+    position: relative;
+    width: 100%;
+    max-width: 900px; /* Adjust the width as needed */
+    height: 250px; /* Adjust the height based on the image */
+    border-radius: 8px; /* Rounded corners */
+    overflow: hidden;
+}
+
+.food-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('src/assets/image9.png'); /* Replace with your image */
+    background-size: cover;
+    background-position: center;
+    filter: brightness(0.7); /* Darkens the image for text visibility */
+    z-index: 1; /* Places the image below the text */
+}
+
+.food-content {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    z-index: 2;
+    color: white;
+    font-size: 18px;
+    line-height: 1.5;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); 
+    text-align: left;
+}
+
+.food-content h3 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.food-content p {
+    margin: 5px 0 0;
+    font-size: 16px;
+    max-width: 600px; 
+    text-align: left;
+}  
+
+.cosmetics-card {
+    position: relative;
+    width: 100%;
+    max-width: 900px; /* Adjust the width as needed */
+    height: 250px; /* Adjust the height based on the image */
+    border-radius: 8px; /* Rounded corners */
+    overflow: hidden;
+}
+
+.cosmetics-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('src/assets/image10.png'); /* Replace with your image */
+    background-size: cover;
+    background-position: center;
+    filter: brightness(0.7); /* Darkens the image for text visibility */
+    z-index: 1; /* Places the image below the text */
+}
+
+.cosmetics-content {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    z-index: 2;
+    color: white;
+    font-size: 18px;
+    line-height: 1.5;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Adds slight shadow for readability */
+}
+
+.cosmetics-content h3 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.cosmetics-content p {
+    margin: 5px 0 0;
+    font-size: 16px;
+    max-width: 600px; 
+    text-align: left;
+}
+
+
+/* Call to Action */
+.call-to-action {
+    text-align: left;
+    padding: 40px;
+}
+
+.call-to-action p {
+    font-size: 18px;
+    color: #333;
+}
+
+.call-to-action button {
+    background: linear-gradient(90deg, #a3d977, #2e9d6b);
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-right: 20px;
+  }
+  
+  .call-to-action button :hover {
+    background: linear-gradient(90deg, #2e9d6b, #a3d977);
+    transform: translateY(-2px);
+}
+
+
+

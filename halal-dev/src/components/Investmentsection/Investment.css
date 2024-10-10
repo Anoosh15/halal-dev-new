@@ -1,0 +1,71 @@
+
+
+.investment-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: #f9f9f9;
+  }
+  
+  .investment-image {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .investment-image img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+  }
+  
+  .investment-text {
+    flex: 1;
+    padding-left: 40px;
+  }
+  
+  .investment-text h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .investment-text h2 {
+    font-size: 1rem;
+    color: #999;
+    margin-bottom: 10px;
+  }
+  
+  .investment-text .highlight {
+    color: #6cc24a; 
+    background: linear-gradient(to right, #a4e368, #2f8759); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  font-family: 'Arial', sans-serif;
+  }
+  
+  .investment-text p {
+    margin-bottom: 20px;
+    color: #666;
+    line-height: 1.6;
+  }
+  
+  .investment-points {
+    display: flex;
+    flex-wrap: wrap;  
+    justify-content: space-between;  
+    list-style-type: disc;  
+    padding-left: 20px;
+
+  }
+  
+  .inve-points li {
+    margin-bottom: 10px;
+    color: #000000; 
+    font-weight: bold;
+    flex: 1 1 45%;
+    font-family: 'Urbanist', sans-serif;
+
+  }
+  
+  

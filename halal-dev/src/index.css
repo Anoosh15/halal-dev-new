@@ -1,0 +1,76 @@
+body {
+    font-family: 'Urbanist', sans-serif;
+}
+h1, h2, h3, p {
+    font-family: 'Urbanist', sans-serif;
+}
+li{
+    font-family: 'Urbanist', sans-serif;
+}
+/* Global reset and font setup */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    font-family: 'Urbanist', sans-serif;
+    line-height: 1.6;
+}
+
+img, video {
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Base styles for mobile (default) */
+body {
+    font-size: 14px;
+}
+
+.stats-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Responsive breakpoints */
+
+/* Tablets */
+@media (min-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+
+    .container {
+        padding: 40px;
+    }
+
+    .stats-container {
+        justify-content: space-between;
+    }
+}
+
+/* Desktops */
+@media (min-width: 1024px) {
+    body {
+        font-size: 18px;
+    }
+
+    .container {
+        padding: 60px;
+    }
+
+    .stats-container {
+        justify-content: space-around;
+    }
+}

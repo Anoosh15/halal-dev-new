@@ -1,0 +1,26 @@
+
+.black-section {
+    background-color: #000;
+    border-radius: 16px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    width: 100%;
+    max-width: 1200px;
+  }
+  
+  .black-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .logo-white {
+    height: 60px;
+    color: white;
+    filter: brightness(0)invert(1);
+  }
+  

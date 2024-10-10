@@ -1,0 +1,64 @@
+/* ContactSection.css */
+
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 40px;
+    background-color: #f5f7f7;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.contact-section p {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.contact-section h2 {
+    font-size: 36px;
+    line-height: 1.2;
+    color: #333;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.contact-section h2 strong {
+    font-weight: 700; /* Bold for emphasized words */
+}
+
+.connect-button {
+    padding: 12px 24px;
+    background: linear-gradient(90deg, #77c356, #37ab6c); /* Green gradient background */
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.connect-button:hover {
+    background: linear-gradient(90deg, #67b248, #2e9961); /* Darken on hover */
+}
+
+@media (max-width: 600px) {
+    .contact-section {
+        padding: 20px;
+    }
+
+    .contact-section h2 {
+        font-size: 28px;
+        line-height: 1.2;
+    }
+
+    .connect-button {
+        width: 100%;
+        text-align: center;
+    }
+}

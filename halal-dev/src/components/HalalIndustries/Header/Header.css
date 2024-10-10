@@ -1,0 +1,32 @@
+.purpose-text {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 0;
+  }
+  
+  .main-heading {
+    font-size: 48px;
+    font-weight: normal;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.2;
+  }
+  
+  .main-heading strong {
+    font-weight: bold;
+    color: #1d5e40; 
+  }
+  
+ .highlight-green h1{
+    color: #a4e368; 
+    color: #6cc24a; 
+    background: linear-gradient(to right, #a4e368, #2f8759); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Arial', sans-serif;
+  }
+  }
+  
+  .main-heading .highlight-dark-green {
+    color: #2f8759; 
+  }
+  
